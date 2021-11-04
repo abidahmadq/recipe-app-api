@@ -1,0 +1,5 @@
+To run unit tests -> 
+1) docker-compose run app sh -c "python manage.py test && flake8"
+
+To build -> 
+1) docker-compose build
